@@ -1,4 +1,4 @@
-class ApplicationController < ActionController::Base
+class StaticPagesController < ApplicationController
   def home
   end
 
@@ -7,5 +7,4 @@ class ApplicationController < ActionController::Base
 
   def contact
   end
-
 end
