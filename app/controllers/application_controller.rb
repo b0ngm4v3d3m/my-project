@@ -1,11 +1,8 @@
 class ApplicationController < ActionController::Base
-  def home
+  include SessionsHelper
+  def hello
+    render html:"Hello word"
   end
 
-  def help
-  end
-
-  def contact
-  end
 
 end
