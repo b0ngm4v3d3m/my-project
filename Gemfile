@@ -27,7 +27,10 @@ gem 'bootstrap-sass', '3.4.1'
 gem 'dotenv-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
-
+gem 'active_storage_validations'
+gem 'image_processing'
+gem 'mini_magick'
+gem 'aws-sdk-s3'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'bcrypt'
